@@ -1,0 +1,109 @@
+.table-container {
+    max-width: 94vw;
+    padding: 2px 16px;
+    overflow-x: hidden;
+}
+
+.table-input-file {
+    text-align: right;
+}
+
+.card-file {
+    width: 160px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ef9a9a;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.card-header {
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+    border-bottom: 1px solid #EF9A9A;
+    padding: 5px 10px;
+    background: white;
+}
+
+.card-footer {
+    color: black;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    border-top: 1px solid #EF9A9A;
+    padding: 5px 10px;
+    background: white;
+    user-select: none;
+}
+
+.icon-card {
+    width: 95%;
+    height: 99%;
+    margin: 0 auto;
+}
+
+
+
+.table-th{
+    background: #f3ba13;
+    min-width: 200px;
+    padding: 0px 4px 0px 2px;
+    border: 1px solid #d0d7e5;
+    border-width: 0px 1px 1px 0px;
+}
+
+.table-tr{
+    min-width: 200px;
+    padding: 0px 4px 0px 2px;
+    border: 1px solid #d0d7e5;
+    border-width: 0px 1px 1px 0px;
+}
+
+thead tr:nth-child(2) {
+    background: none;
+    /*min-width: 200px;*/
+    /*padding: 0px 4px 0px 2px;*/
+    /*border: 1px solid #d0d7e5;*/
+    /*border-width: 0px 1px 1px 0px;*/
+}
+thead tr:nth-child(3) {
+    /*display: none;*/
+    min-width: 200px;
+    padding: 0px 4px 0px 2px;
+    border: 1px solid #d0d7e5;
+    border-width: 0px 1px 1px 0px;
+}
+thead tr:nth-child(4) {
+    /*display: none;*/
+    background: none;
+    min-width: 200px;
+    padding: 0px 4px 0px 2px;
+    border: 1px solid #d0d7e5;
+    border-width: 0px 1px 1px 0px;
+}
+
+.input-component-container {
+    text-align: right;
+    padding-right: 3%;
+    padding-top: 20px;
+}
+
+.input-button {
+    width: 350px;
+    overflow: hidden;
+    padding-right: 10px;
+}
+
+.contained-button-file {
+    min-width: 15%;
+    height: 32px;
+}
+
+.table-docs {
+    overflow-y: hidden;
+
+}

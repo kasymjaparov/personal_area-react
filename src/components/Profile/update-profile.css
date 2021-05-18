@@ -1,0 +1,21 @@
+.update-profile-card {
+    width: 100%;
+    height: 100%;
+}
+
+.container-update-profile{
+    margin: 20px auto;
+}
+
+.update-profile-row {
+    padding: 10px;
+}
+
+.update-profile-success{
+    color: #4caf50;
+    margin: 10px 0px 20px 0px ;
+}
+.update-profile-typography{
+    text-align: center;
+    margin: 20px 0px 0px 0px ;
+}

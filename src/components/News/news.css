@@ -1,0 +1,141 @@
+Обнуление
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%; 
+     line-height: 1;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+.fa-arrow-left, .fa-arrow-right{
+    color: black;
+}
+.news_block {
+    margin: 30px 0px 0px 0px;
+    width: 100%;
+    padding: 0 16px;
+}
+
+.news_block_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.news_block_h{
+    font-size: 1.5rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.334;
+    letter-spacing: 0em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 1rem 0px ;
+}
+.newsLink{
+    width: 220px;
+    margin: 0px 10px 20px 0px ;
+}
+.news_title{
+    color: #007bff;
+    font-size: 18px;
+}
+.news_desc{
+    color: black;
+}
+.newsItem{
+    padding: 0 10px;
+}
+.newsItem a{
+    display: block;
+    margin: 20px 0px 0px 0px ;
+}
+.newsItem a i{
+    font-size: 30px;
+}
+.newsItem_title{
+    margin: 20px 0px 15px 0px ;
+    font-size:2em;
+    
+}
+.newsItem_desc{
+    font-size: 1.1em;
+    line-height: 23px;
+}
+.newsItem_img{
+    width: 80%;
+    margin: 15px auto 20px auto ;
+}
+.newsItem_img img{
+    width: 100%;
+}
+@media(max-width:400px){
+    .newsLink{
+       
+        margin: 0px 0px 20px 0px ;
+    }
+}
